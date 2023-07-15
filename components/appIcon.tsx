@@ -4,7 +4,6 @@ import Image from "next/image";
 
 export const appIcons = (): JSX.Element => {
   const goTo = (link: string) => {
-    console.log(link);
     window.open(link, "_blank");
   };
 
